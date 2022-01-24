@@ -1,0 +1,62 @@
+html {
+  width: 100%;
+  font-family: 'roboto';
+}
+
+.container {
+  width: 100%;
+}
+
+.content {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+.buttons{
+display: flex;
+}
+.buttons button{
+  flex : 1;
+  }
+button {
+        padding: 20px;
+        margin-bottom: 20px;
+        display:inline-block;
+        outline: none;
+        border: none;
+        border-radius: 15px;
+        font-size: larger;
+        color: white;
+        cursor: pointer;
+}
+.active{
+  background-color: rgb(202, 197, 191);
+}
+table {
+  width: 100%;
+}
+thead{
+  background-color: rgb(167, 166, 166);
+}
+thead th {
+display: inline-block; 
+font-size: 25px;
+flex:1;
+}
+
+tr {
+  display: flex;
+  width: 100%;
+  padding: 18px 0;
+}
+tr:nth-of-type(even) {
+  background: #eeeeee;
+}
+
+td {
+  flex: 1 1 20%;
+  text-align: center;
+}

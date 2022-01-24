@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- w3 css -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    
+    
+    <div class="container">
+        <h1>Sorting in Js</h1>
+      <!-- <div class="buttons">
+        <button onclick="sort_by_name()">Sort By Name</button>
+        <button onclick="sort_by_id()">Sort By ID</button>
+        <button onclick="sort_by_gpa()">Sort By GPA</button>
+      </div> -->
+        <div class="content">
+            
+<div class="w3-bar w3-black">
+    <button class="name w3-bar-item w3-button active" onclick="openbtns('name')">Name</button>
+    <button class="id w3-bar-item w3-button" onclick="openbtns('id')">ID</button>
+    <button class="dep w3-bar-item w3-button" onclick="openbtns('dep')">DEP</button>
+    <button class="gpa w3-bar-item w3-button" onclick="openbtns('gpa')">GPA</button>
+  </div>
+  
+    <div id="name" class="w3-container btns">
+        <div class="name_table"></div>
+      </div>
+      
+      <div id="id" class="w3-container btns " style="display:none">
+<div class="id_table"></div>
+      </div>
+      
+      <div id="gpa" class="w3-container btns" style="display:none">
+      <div class="gpa_table"></div>
+      </div>
+      <div id="dep" class="w3-container btns" style="display:none">
+      <div class="dep_table"></div>
+      </div>
+    </div>    
+    <script src="./js/app.js"></script>
+</body>
+</html>
